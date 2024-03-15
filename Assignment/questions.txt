@@ -1,0 +1,67 @@
+1. Write code that would display:
+  a. A random decimal from 0 to 1 (exclusive)
+  b. A random decimal from 0 to 10 (exclusive)
+  c. A random integer from 0 to 1000 (inclusive)
+  d. A random decimal from 5 to 15 (exclusive)
+  e. A random integer from 1 to 3 (inclusive)
+  f. A random integer from 100 to 150 (inclusive)
+
+2. Convert each statement to a boolean expression. Come up with variables to represent each value.
+  a. You can eat if you have food and you are hungry
+  b. You can swim if it is Monday or Friday and the pool sign says "open"
+  c. You get pizza if it is friday or saturday and your Math mark is above 80 or you did your chores.
+
+3. Identify the logic errors in the statements below, which should display a single appropriate message for any value of age:
+
+  if (age < 18) {
+    console.log("child");
+  } else if (age > 18 && age < 65) {
+    console.log("adult");
+  } else if (age > 65) {
+    console.log("senior");
+  }
+
+4. Given the following assignments, determine if each of the following expressions evaluates to true or false:
+
+  size = 100 weight = 50 value = 75
+
+  a) size > 50 && weight == 50
+  b) value < 100 && !(weight == 50)
+  c) size >= 100 || value >= 100
+  d) weight < 50 || size > 50
+  e) !(value < 75)
+  f) !(size > 100 && weight >50 && value > 75)
+  g) (value < 125 || weight < 76) & size == 100
+
+5. Look up the Math library documentation (Google JavaScript Math Library) to help you answer the following:
+  a) Write a statement that will calculate y to the power of x.
+  b) Write a statement that will calculate the absolute value of y.
+  c) Write a statement that will calculate the square root of y.
+
+6. Determine if each of the following are true or
+false. If false, explain why.
+  a) The condition of an if statement must be a Boolean expression.
+
+  b) A nested if statement and an if-else if
+  statement are the same.
+
+  c) A compound Boolean expression can contain more than two Boolean expressions.
+
+  d) In a logical AND expression, both operands
+  must be true for the expression to evaluate
+  to true.
+
+  e) In logical expressions, && is evaluated before !.
+
+7. Write a small program that asks the user for a number between 0 and 100. Output either "Thanks!" (if the number is 0-100) or "Incorrect Value" (if the number is outside the range). Use a logical operator in your if-statement (&& or ||)
+
+8. Write a small program that asks the user for a color. If they enter a color of the rainbow (red, orange, yellow, green, blue, indigo, or violet), say "That's a rainbow color!". Otherwise, say "Color submitted.".  You may NOT use an else-if in your answer.
+
+9. Write a small program that asks the user to enter a single digit odd number and a 2-digit even number. If they enter correctly, output the sum of those numbers. Otherwise, tell them "You didn't follow the instructions."  Use a logical operator in your if-statement (&& or ||)
+
+10. Write a small program that creates three random integers from 0 to 100 and outputs them. If at least 2 of these numbers are above 50, output "Lucky!". Otherwise, output "Unlucky...".
+E.g. 20 32 99 Unlucky...
+E.g. 45 65 55 Lucky!
+E.g. 67 89 76 Lucky!
+
+11. Complete the remaining Map Analyzer Solutions
